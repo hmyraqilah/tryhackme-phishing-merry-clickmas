@@ -33,4 +33,23 @@ Before starting the exercise, the following steps were completed:
 3. Network connectivity between the attacker and target machines was verified.
 4. The required files for the lab were located in the provided directory.
 
+## 5. Task 1 – Hosting the Phishing Page
+The first task in this lab involved hosting a fake login page that would be used to capture user credentials.
+
+The phishing server script was provided by TryHackMe. The script was executed from the lab directory using the following command:
+```bash
+./server.py
+
+## Evidence
+![Phishing Server Running](screenshots/phishing_server.png)
+
+Once executed, the server started listening on port 8000 and was bound to all available network interfaces (0.0.0.0). This allowed the fake login page to be accessed through the AttackBox IP address. To verify that the phishing page was working correctly, the following URL was opened in the browser:
+http://10.49.79.194:8000
+
+## Evidence
+
+
+
+
+
 
