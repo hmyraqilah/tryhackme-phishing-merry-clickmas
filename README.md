@@ -45,7 +45,8 @@ Once executed, the server started listening on port 8000 and was bound to all av
 To verify that the phishing page was working correctly, the following URL was opened in the browser:
 http://10.49.79.194:8000
 
-![image alt](
+![image alt](https://github.com/hmyraqilah/tryhackme-phishing-merry-clickmas/blob/8e4f3a0ddd813288ede4d6848990f44bc6dd694e/Fake_Login_Page.png)
+
 
 
 
