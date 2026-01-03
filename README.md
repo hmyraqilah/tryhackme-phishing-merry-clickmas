@@ -51,9 +51,7 @@ The page displayed a login interface designed to resemble a legitimate company p
 
 ## 6. Task 2 – Sending the Phishing Email
 In this task, a phishing email was created and sent to the target user using the **Social-Engineer Toolkit (SET)**.
-The toolkit was launched from the terminal using the following command:
-
-setoolkit
+The toolkit was launched from the terminal using the following command: setoolkit
 
 The following options were selected within SET:
 1. Social-Engineering Attacks
@@ -67,8 +65,11 @@ The sender and recipient details were configured to appear legitimate. A realist
 
 ## 7. Task 3 – Capturing Credentials
 After the phishing email was sent, the phishing server was monitored for incoming connections. When the target user clicked the link in the email and entered their login details, the credentials were captured by the phishing server and displayed in the terminal. This confirmed that the phishing attack was successful and demonstrated how attackers can obtain sensitive information through social engineering techniques.
+Captured Credentials : 
+username: admin
+password: unranked-wisdom-anthem
 
-![image alt](https://github.com/hmyraqilah/tryhackme-phishing-merry-clickmas/blob/9cb5e1cefc41b616e5be5ca9890eb4363a331a09/Captured_Credentials.png)
+![image alt]()
 
 ## 8. Results
 The phishing simulation was completed successfully. The fake login page was hosted without issues, and the phishing email was delivered to the target user.
