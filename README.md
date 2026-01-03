@@ -53,7 +53,6 @@ The page displayed a login interface designed to resemble a legitimate company p
 In this task, a phishing email was created and sent to the target user using the **Social-Engineer Toolkit (SET)**.
 The toolkit was launched from the terminal using the following command:
 
-```bash
 setoolkit
 
 The following options were selected within SET:
@@ -64,7 +63,7 @@ The following options were selected within SET:
 
 The sender and recipient details were configured to appear legitimate. A realistic subject and message body were used to increase the likelihood of the recipient clicking the phishing link. The link to the fake login page hosted on the AttackBox was included in the email body. Once configured, the phishing email was sent successfully to the target user.
 
-![image alt](set_email.png)
+![image alt](https://github.com/hmyraqilah/tryhackme-phishing-merry-clickmas/blob/dff9389062198b21cbaa5f8bea732db851ebe0ce/Set_Email.png)
 
 ## 7. Task 3 – Capturing Credentials
 After the phishing email was sent, the phishing server was monitored for incoming connections. When the target user clicked the link in the email and entered their login details, the credentials were captured by the phishing server and displayed in the terminal. This confirmed that the phishing attack was successful and demonstrated how attackers can obtain sensitive information through social engineering techniques.
