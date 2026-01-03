@@ -40,6 +40,7 @@ The phishing server script was provided by TryHackMe. The script was executed fr
 
 ```bash
 ./server.py
+```md
 
 ![image alt](https://github.com/hmyraqilah/tryhackme-phishing-merry-clickmas/blob/33912c8b6f0d391557b4b65745babb64cb69e93d/Phishing_Server.png)
 
