@@ -47,6 +47,10 @@ http://10.49.79.194:8000
 
 ![image alt](https://github.com/hmyraqilah/tryhackme-phishing-merry-clickmas/blob/8e4f3a0ddd813288ede4d6848990f44bc6dd694e/Fake_Login_Page.png)
 
+The page displayed a login interface designed to resemble a legitimate company portal. Any credentials entered into this page would be captured and displayed in the terminal running the phishing server.
+
+![image alt]()
+
 
 
 
