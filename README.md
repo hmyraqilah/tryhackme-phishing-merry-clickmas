@@ -40,8 +40,8 @@ The phishing server script was provided by TryHackMe. The script was executed fr
 
 ```bash
 ./server.py
-```md
 
+```md
 ![image alt](https://github.com/hmyraqilah/tryhackme-phishing-merry-clickmas/blob/33912c8b6f0d391557b4b65745babb64cb69e93d/Phishing_Server.png)
 
 Once executed, the server started listening on port 8000 and was bound to all available network interfaces (0.0.0.0). This allowed the fake login page to be accessed through the AttackBox IP address.
@@ -56,7 +56,6 @@ The page displayed a login interface designed to resemble a legitimate company p
 In this task, a phishing email was created and sent to the target user using the **Social-Engineer Toolkit (SET)**.
 The toolkit was launched from the terminal using the following command:
 
-```bash
 setoolkit
 
 The following options were selected within SET:
