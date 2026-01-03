@@ -41,12 +41,12 @@ The phishing server script was provided by TryHackMe. The script was executed fr
 ./server.py
 
 ## Evidence
-![Phishing Server Running](screenshots/phishing_server.png)
+![image alt](image_url)
 
 Once executed, the server started listening on port 8000 and was bound to all available network interfaces (0.0.0.0). This allowed the fake login page to be accessed through the AttackBox IP address. To verify that the phishing page was working correctly, the following URL was opened in the browser:
 http://10.49.79.194:8000
 
-## Evidence
+
 
 
 
