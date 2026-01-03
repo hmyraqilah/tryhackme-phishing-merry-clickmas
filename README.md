@@ -49,7 +49,7 @@ http://10.49.79.194:8000
 
 The page displayed a login interface designed to resemble a legitimate company portal. Any credentials entered into this page would be captured and displayed in the terminal running the phishing server.
 
-![image alt]()
+![image alt](https://github.com/hmyraqilah/tryhackme-phishing-merry-clickmas/blob/1d43830f53d74519689b7c07a15f271bb3fb339f/Captured_Credentials.png)
 
 
 
