@@ -1,7 +1,7 @@
 # tryhackme-phishing-merry-clickmas
 TryHackMe Phishing – Merry Clickmas write-up (Advent of Cyber 2025).
-## 1. Introduction
 
+## 1. Introduction
 This write-up documents the completion of the TryHackMe room **“Phishing – Merry Clickmas”**, which is part of the **Advent of Cyber 2025** series. The purpose of this exercise is to understand how phishing attacks are conducted and how attackers use social engineering techniques to trick users into revealing sensitive information.
 In this lab, a simulated phishing campaign is performed using a fake login page and a crafted phishing email. The exercise demonstrates how easily users can be deceived by legitimate-looking messages and highlights the importance of cybersecurity awareness and email security.
 
@@ -56,6 +56,7 @@ In this task, a phishing email was created and sent to the target user using the
 The toolkit was launched from the terminal using the following command:
 ```bash
 setoolkit
+
 ---
 The following options were selected within SET:
 1. Social-Engineering Attacks
@@ -65,7 +66,6 @@ The following options were selected within SET:
 
 The sender and recipient details were configured to appear legitimate. A realistic subject and message body were used to increase the likelihood of the recipient clicking the phishing link. The link to the fake login page hosted on the AttackBox was included in the email body. Once configured, the phishing email was sent successfully to the target user.
 
-```md
 ![image alt](https://github.com/hmyraqilah/tryhackme-phishing-merry-clickmas/blob/dff9389062198b21cbaa5f8bea732db851ebe0ce/Set_Email.png)
 
 ## 7. Task 3 – Capturing Credentials
