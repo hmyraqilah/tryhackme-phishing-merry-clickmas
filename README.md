@@ -37,7 +37,7 @@ Before starting the exercise, the following steps were completed:
 The first task in this lab involved hosting a fake login page that would be used to capture user credentials.
 
 The phishing server script was provided by TryHackMe. The script was executed from the lab directory using the following command:
-bash
+
 ./server.py
 
 
@@ -54,7 +54,7 @@ The page displayed a login interface designed to resemble a legitimate company p
 ## 6. Task 2 – Sending the Phishing Email
 In this task, a phishing email was created and sent to the target user using the **Social-Engineer Toolkit (SET)**.
 The toolkit was launched from the terminal using the following command:
-
+```bash
 setoolkit
 
 The following options were selected within SET:
