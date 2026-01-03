@@ -69,16 +69,16 @@ Captured Credentials :
 username: admin
 password: unranked-wisdom-anthem
 
-![image alt]()
+![image alt](https://github.com/hmyraqilah/tryhackme-phishing-merry-clickmas/blob/10d66a0a58cc286d3fe84922225e5fc873b21967/Captured_Credentials.png)
 
 ## 8. Results
 The phishing simulation was completed successfully. The fake login page was hosted without issues, and the phishing email was delivered to the target user.
 When the recipient interacted with the phishing link and submitted their credentials, the information was captured by the phishing server. This demonstrates how effective phishing attacks can be when users are unaware or do not verify email authenticity.
 
-## 9. Conclusion
-This lab provided hands-on experience with phishing attacks and social engineering techniques. It highlighted how attackers can exploit human behavior rather than technical vulnerabilities to gain unauthorized access to sensitive information.
+![image alt](successful)
 
-The exercise emphasizes the importance of cybersecurity awareness, email verification, and user education as key defenses against phishing attacks. Understanding how these attacks work is essential for improving both personal and organizational security.
+## 9. Conclusion
+This lab provided hands-on experience with phishing attacks and social engineering techniques. It highlighted how attackers can exploit human behavior rather than technical vulnerabilities to gain unauthorized access to sensitive information. The exercise emphasizes the importance of cybersecurity awareness, email verification, and user education as key defenses against phishing attacks. Understanding how these attacks work is essential for improving both personal and organizational security.
 
 ## 10. References
 
