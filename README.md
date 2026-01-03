@@ -37,8 +37,7 @@ Before starting the exercise, the following steps were completed:
 The first task in this lab involved hosting a fake login page that would be used to capture user credentials.
 
 The phishing server script was provided by TryHackMe. The script was executed from the lab directory using the following command:
-
-
+bash
 ./server.py
 
 
