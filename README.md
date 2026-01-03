@@ -75,7 +75,7 @@ password: unranked-wisdom-anthem
 The phishing simulation was completed successfully. The fake login page was hosted without issues, and the phishing email was delivered to the target user.
 When the recipient interacted with the phishing link and submitted their credentials, the information was captured by the phishing server. This demonstrates how effective phishing attacks can be when users are unaware or do not verify email authenticity.
 
-![image alt](successful)
+![image alt](https://github.com/hmyraqilah/tryhackme-phishing-merry-clickmas/blob/3ebc4da1a1867d3ff15b53d224b37e42ae119dd7/Successfully_Phishing.png)
 
 ## 9. Conclusion
 This lab provided hands-on experience with phishing attacks and social engineering techniques. It highlighted how attackers can exploit human behavior rather than technical vulnerabilities to gain unauthorized access to sensitive information. The exercise emphasizes the importance of cybersecurity awareness, email verification, and user education as key defenses against phishing attacks. Understanding how these attacks work is essential for improving both personal and organizational security.
