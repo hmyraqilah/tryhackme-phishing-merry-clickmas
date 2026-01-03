@@ -49,7 +49,48 @@ http://10.49.79.194:8000
 
 The page displayed a login interface designed to resemble a legitimate company portal. Any credentials entered into this page would be captured and displayed in the terminal running the phishing server.
 
-![image alt](https://github.com/hmyraqilah/tryhackme-phishing-merry-clickmas/blob/1d43830f53d74519689b7c07a15f271bb3fb339f/Captured_Credentials.png)
+## 6. Task 2 – Sending the Phishing Email
+In this task, a phishing email was created and sent to the target user using the **Social-Engineer Toolkit (SET)**.
+The toolkit was launched from the terminal using the following command:
+
+```bash
+setoolkit
+
+The following options were selected within SET:
+1. Social-Engineering Attacks
+2. Mass Mailer Attack
+3. Single Email Address
+4. Use own server to open relay
+
+The sender and recipient details were configured to appear legitimate. A realistic subject and message body were used to increase the likelihood of the recipient clicking the phishing link. The link to the fake login page hosted on the AttackBox was included in the email body. Once configured, the phishing email was sent successfully to the target user.
+
+![image alt](set_email.png)
+
+## 7. Task 3 – Capturing Credentials
+After the phishing email was sent, the phishing server was monitored for incoming connections. When the target user clicked the link in the email and entered their login details, the credentials were captured by the phishing server and displayed in the terminal. This confirmed that the phishing attack was successful and demonstrated how attackers can obtain sensitive information through social engineering techniques.
+
+![image alt](credentials)
+
+## 8. Results
+The phishing simulation was completed successfully. The fake login page was hosted without issues, and the phishing email was delivered to the target user.
+When the recipient interacted with the phishing link and submitted their credentials, the information was captured by the phishing server. This demonstrates how effective phishing attacks can be when users are unaware or do not verify email authenticity.
+
+## 9. Conclusion
+This lab provided hands-on experience with phishing attacks and social engineering techniques. It highlighted how attackers can exploit human behavior rather than technical vulnerabilities to gain unauthorized access to sensitive information.
+
+The exercise emphasizes the importance of cybersecurity awareness, email verification, and user education as key defenses against phishing attacks. Understanding how these attacks work is essential for improving both personal and organizational security.
+
+## 10. References
+
+- TryHackMe. Phishing – Merry Clickmas.  
+  https://tryhackme.com/room/phishing-aoc2025-h2tkye9fzU
+
+- TryHackMe. Advent of Cyber 2025.  
+  https://tryhackme.com/adventofcyber25
+
+- Youtube. Phishing for Passwords! (Advent of Cyber Day 02)
+  https://www.youtube.com/watch?v=w8O8FcRgDXU&t=1025s
+
 
 
 
